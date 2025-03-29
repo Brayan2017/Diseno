@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Página-1" id="mjf02ZR8FEkPBGcQ6cgN">
+    <mxGraphModel dx="1244" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-1" value="&amp;lt;&amp;lt;Interfaz Builder &amp;lt;T&amp;gt; &amp;gt;&amp;gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-1">
+          <mxGeometry y="26" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-4" value="+ builder &amp;lt;T&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-1">
+          <mxGeometry y="34" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-5" value="AbstracBurgerBuilder&amp;nbsp; &amp;nbsp;&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-5">
+          <mxGeometry y="26" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-8" value="+ withLettuce(): AbstracBurgerBuilder&lt;div&gt;+ withBeef(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ withPork(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ withChicken(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ addTomato(amount: int): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ addOnio(amount: int): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ addSlicesOfCheese(amount: int): AbstracBurgerBuilder&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-5">
+          <mxGeometry y="34" width="340" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-1" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="_-qD8zx-Wrip5IAV5Fve-5" source="_-qD8zx-Wrip5IAV5Fve-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-150" y="140" as="sourcePoint" />
+            <mxPoint x="10" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-200" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-11" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=-0.013;exitY=0.143;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="_-qD8zx-Wrip5IAV5Fve-8" target="_-qD8zx-Wrip5IAV5Fve-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="230" as="sourcePoint" />
+            <mxPoint x="430" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-12" value="BurgerBuilder&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="340" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-13" value="- burger: Burger" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-12">
+          <mxGeometry y="26" width="340" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-12">
+          <mxGeometry y="52" width="340" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_-qD8zx-Wrip5IAV5Fve-15" value="- BurgerBuilder()&lt;div&gt;+ static burger(): BurgerBuilder&lt;/div&gt;&lt;div&gt;+ build(): Burger&lt;/div&gt;&lt;div&gt;+ withLettuce(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ withBeef(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ withPork(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ withChicken(): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ addTomato(amount: int): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;+ addOnio(amount: int): AbstracBurgerBuilder&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ addSlicesOfCheese(amount: int): AbstracBurgerBuilder&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="_-qD8zx-Wrip5IAV5Fve-12">
+          <mxGeometry y="60" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-2" value="Burger&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="480" width="320" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-3" value="- AMOUNT_BREADS: int = 2&lt;div&gt;&amp;nbsp;- hasLettuce: boolean&lt;/div&gt;&lt;div&gt;- hasBeef: boolean&lt;/div&gt;&lt;div&gt;- hasPork: boolean&lt;/div&gt;&lt;div&gt;- hasChicken: boolean&lt;/div&gt;&lt;div&gt;- amountTomato: int&lt;/div&gt;&lt;div&gt;- amountOnion: int&lt;/div&gt;&lt;div&gt;- amountslicesOfCheese: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwxu3uMzDkhJenDJQ_22-2">
+          <mxGeometry y="26" width="320" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-4" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Uwxu3uMzDkhJenDJQ_22-2">
+          <mxGeometry y="160" width="320" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-5" value="+ isHasLettuce(): boolean&lt;div&gt;+ setHasLettuce(hasLettuce: boolean)&lt;/div&gt;&lt;div&gt;+ isHasBeef(): boolean&lt;/div&gt;&lt;div&gt;+ setHasBeef(hasBeef: boolean)&lt;/div&gt;&lt;div&gt;+ isHasPork(): boolean&lt;/div&gt;&lt;div&gt;+ setHasPork(hasPork: boolean)&lt;/div&gt;&lt;div&gt;+ isHasChicken(): boolean&lt;/div&gt;&lt;div&gt;+ setHasChicken(hasChicken: boolean)&lt;/div&gt;&lt;div&gt;+ getAmountTomato(): int&lt;/div&gt;&lt;div&gt;+ setAmountTomato(amountTomato: int)&lt;/div&gt;&lt;div&gt;+ getAmountOnion(): int&lt;/div&gt;&lt;div&gt;+ setAmountOnion(amountOnion: int)&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ getAmountslicesOfCheese(): int&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ setAmountslicesOfCheese(amountslicesOfCheese: int)&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ toString(): String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwxu3uMzDkhJenDJQ_22-2">
+          <mxGeometry y="168" width="320" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.976;exitY=1.125;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.413;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_-qD8zx-Wrip5IAV5Fve-14" target="Uwxu3uMzDkhJenDJQ_22-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="570" y="530" as="sourcePoint" />
+            <mxPoint x="690" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-7" value="Director&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="680" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Uwxu3uMzDkhJenDJQ_22-7">
+          <mxGeometry y="26" width="310" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-10" value="+ main(args: String[])&lt;div&gt;- burgerExample(): void&lt;/div&gt;&lt;div&gt;&amp;nbsp;- burgerByDefault(): void&lt;/div&gt;&lt;div&gt;- showBurger(message: String, burger: Burger): void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Uwxu3uMzDkhJenDJQ_22-7">
+          <mxGeometry y="34" width="310" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.406;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Uwxu3uMzDkhJenDJQ_22-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="640" as="sourcePoint" />
+            <mxPoint x="520" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="276" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uwxu3uMzDkhJenDJQ_22-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="_-qD8zx-Wrip5IAV5Fve-15">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="670" as="sourcePoint" />
+            <mxPoint x="540" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
